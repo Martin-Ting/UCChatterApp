@@ -1,10 +1,18 @@
 UCR-ChatterApp
 ==============
-This application was developed for CS166 Database Management Systems.
+ This application was developed for CS166 Database Management Systems.
 
 Overview
 ==============
-The motivation for this project was to apply the knowledge learned in CS166 to create a database system for a chat application. I created this Android application as a different way to interact with the database because I found that the command line application required for the project did not provide the same user experience as a mobile application would. 
+ The motivation for this project was to apply the knowledge learned in CS166 to create a database system for a chat application. I created this Android application as a different way to interact with the database because I found that the command line application required for the project did not provide the same user experience as a mobile application would. 
+ There are two clients, one is a command line Java application and the other is an Android mobile application. The backend consists of Java web services and the PostgreSQL database. The Java command line application uses jdbc to connect to PostgreSQL and the Android application uses the web services, nicknames, Hermes to gather data from the PostgreSQL database.
+ 
+Tools used
+==============
++ Anndroid Developer Tools for Eclipse IDE
++ NetBeans
++ PostgreSQL
++ Vim
 
 File Structure
 ==============
