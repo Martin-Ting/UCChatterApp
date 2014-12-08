@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="Authenticate">
+      <implementation-class>cs166.webservices.Authenticate</implementation-class>
+    </service>
+    <service name="SocialServices">
+      <implementation-class>cs166.webservices.SocialServices</implementation-class>
+    </service>
+    <service name="ChatKeeper">
+      <implementation-class>cs166.webservices.ChatKeeper</implementation-class>
+    </service>
+    <service name="MessageKeeper">
+      <implementation-class>cs166.webservices.MessageKeeper</implementation-class>
+    </service>
+    <service name="Hermes">
+      <implementation-class>cs166.webservices.Hermes</implementation-class>
+    </service>
+  </services>
+  <clients>
+    <client name="Authenticate">
+      <wsdl-url>http://localhost:8080/PGComWS/Authenticate?wsdl</wsdl-url>
+      <local-wsdl-file>localhost_8080/PGComWS/Authenticate.wsdl</local-wsdl-file>
+      <package-name forceReplace="true">cs166.webservices_client</package-name>
+      <catalog-file>catalog.xml</catalog-file>
+      <wsimport-options>
+        <wsimport-option>
+          <wsimport-option-name>extension</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>verbose</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>fork</wsimport-option-name>
+          <wsimport-option-value>false</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>wsdlLocation</wsimport-option-name>
+          <wsimport-option-value>http://localhost:8080/PGComWS/Authenticate?wsdl</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>xnocompile</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>xendorsed</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>package</wsimport-option-name>
+          <wsimport-option-value>cs166.webservices_client</wsimport-option-value>
+        </wsimport-option>
+      </wsimport-options>
+    </client>
+  </clients>
+</jax-ws>
