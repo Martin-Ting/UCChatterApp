@@ -8,5 +8,12 @@ The motivation for this project was to apply the knowledge learned in CS166 to c
 
 File Structure
 ==============
-TODO
-add folders for SQL/DOCS/BACKEND/APP code.
++SQL
+  * Folder sql contains all the SQL scripts for the system
+  * Folder data contains mock data 
++Backend/PGcomWS
+  * This NeBeans project contains the source code for the web service deployment that the app uses to communicate with PostgreSQL
++Android
+  * This Android project contains a simple application that supports basic chat application functionality
++Docs
+  * This folder contains the documentation produced over the process of this project.
